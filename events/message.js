@@ -1,5 +1,5 @@
 const { Database } = require("quickmongo");
-const db = new Database("mongodb+srv://GentleScreamer:Piku2007@cluster0.wofjo.mongodb.net/mythical?retryWrites=true&w=majority");  
+const db = new Database("mongodb+srv://GentleScreamer:Piku2007@cluster0.wofjo.mongodb.net/jelly?retryWrites=true&w=majority");  
 
 module.exports = async (client, message) => {
     if (message.author.bot || message.channel.type === 'dm') return;

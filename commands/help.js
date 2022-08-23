@@ -21,7 +21,7 @@ exports.run = async (client, message) => {
 
   const revised = commands
     .split("\n")
-    .map((x) => "• " + "``" + client.config.prefix + x.trim())
+    .map((x) => "• " + "``" + 'Dj' + x.trim())
     .join("\n");
 
   message.channel.send(
